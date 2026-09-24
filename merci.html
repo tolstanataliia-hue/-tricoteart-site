@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Merci · TricotéArt</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400&family=Jost:wght@300;400&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#FAFAF8;--white:#FFFFFF;--rose-d:#A05A6A;--gold:#BFA06A;
+    --deep:#2C2420;--text:#4A3840;--mid:#7A6070;--border:#E0D8DA;
+  }
+  html,body{height:100%;margin:0}
+  body{
+    font-family:"Jost",sans-serif;background:var(--bg);color:var(--text);
+    font-weight:300;display:flex;align-items:center;justify-content:center;
+    padding:2rem;box-sizing:border-box;
+  }
+  .card{
+    max-width:480px;text-align:center;background:var(--white);
+    border:1px solid var(--border);border-radius:8px;padding:3.5rem 2.5rem;
+  }
+  .icon{font-size:2.4rem;color:var(--gold);margin-bottom:1rem}
+  h1{
+    font-family:"Cormorant Garamond",serif;font-weight:300;font-size:2.2rem;
+    color:var(--deep);margin:0 0 1rem;
+  }
+  h1 em{font-style:italic;color:var(--rose-d)}
+  p{font-size:.9rem;line-height:1.8;color:var(--mid);margin:0 0 .8rem}
+  a.btn{
+    display:inline-block;margin-top:1.5rem;padding:.9rem 2.2rem;
+    background:var(--deep);color:#fff;font-size:.7rem;letter-spacing:.15em;
+    text-transform:uppercase;text-decoration:none;border-radius:2px;
+  }
+</style>
+</head>
+<body>
+  <div class="card">
+    <div class="icon">✦</div>
+    <h1>Merci pour votre <em>commande</em></h1>
+    <p>Votre paiement a bien été reçu. Une confirmation vous a été envoyée par email.</p>
+    <p>Je prépare votre création avec le plus grand soin — vous serez prévenue dès son envoi.</p>
+    <p>Des questions ? <a href="mailto:tricoteart@gmail.com" style="color:var(--rose-d)">tricoteart@gmail.com</a></p>
+    <a class="btn" href="/">Retour à la boutique</a>
+  </div>
+</body>
+</html>
